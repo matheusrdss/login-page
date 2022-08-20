@@ -94,6 +94,7 @@ body {
   margin-left: 2rem;
   margin-right: 2rem;
   transition: 0.5s;
+  cursor: pointer;
 }
 
 .button:hover {
