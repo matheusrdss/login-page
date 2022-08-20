@@ -115,3 +115,35 @@ body {
 .span {
   color: #00FF5A;
 }
+
+@media screen and (max-width: 720px){
+  .App {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .left {
+    display: none;
+  }
+
+  .img {
+    display: none;
+  }
+
+  .right {
+    width: 90%
+  }
+
+  .inp, .lab, .button {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+
+  .register {
+    text-align: center;
+    margin: 0;
+  }
+
+}
